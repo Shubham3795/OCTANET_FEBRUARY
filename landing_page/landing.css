@@ -1,0 +1,49 @@
+.main{
+    border-radius: 0px 0px 1000px 0px;
+    background-color: brown;
+    height: 90vh;
+    width: 70%;
+    
+    
+}
+
+.heading{
+    padding: 70px 0px 0px 0px;
+    font-size: 4em;
+    color: white;
+    text-align: left;
+}
+
+.subHeading{
+    padding: 0px 0px 0px 0px;
+    font-size: 2em;
+    color: whitesmoke;
+}
+
+.header{
+    padding-top: 0px;
+    font-size: 1.3em;
+}
+
+a,h1{
+    display: inline-block;
+    padding: 50px 0px 0px 40px;
+    color: black;
+}
+
+.container{
+    padding-left: 60px;
+}
+
+button{
+    height: 45px;
+    width: 100px;
+    border-radius: 10px;
+}
+/* div{
+    border-radius: 0px 0px 0px 0px;
+    background-color: brown;
+    height: 20vh;
+    width: 100%;
+    
+} */
