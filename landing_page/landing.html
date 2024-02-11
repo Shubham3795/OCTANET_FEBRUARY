@@ -5,28 +5,84 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="landing.css"/>
+
 </head>
 <body>
-   <div class="main">
-    <div class="header">
-        <h1 style="display: inline ">Portfolio</h1>
-        <a href="">About Me</a>
-        <a href="">Skills</a>
-        <a href="">Education</a>
-        <a href="">Contact</a>
-        
-    </div>
-    <div class="container">
-        <div class="heading">Full Stack Developer</div>
-        <div class="subHeading">CDAC certified</div>
-        <p style="width: 60%;">Lorem ipsum dolor sit nostrum ea voluptates ex perspiciatis? Architecto id quaerat atque suscipit reprehenderit repellat repellendus mollitia aliquid obcaecati? Laboriosam, sapiente.</p>
-        <div class="">
-            <button>About Me</button>
-            <button>My Work</button>
+    <div class="leftContainer">
+        <div class="headingLeft">
+            <!-- Portfolio -->
+            Developer's Work <br/><span>behind the seen</span>
         </div>
+        <div class="middle">
+            <div class="database">
+                <h2 style="margin: 0px ;">database</h2>
+                <p class="center ser-req-db">server requesting for data</p>
+                <p class="center db-pros">processing...</p>
+                <p class="center db-resp">sending requested data to server</p>
+            </div>
+            <div class="backend">
+                <h2 style="margin: 0px;">server</h2>
+                <p class="center ser-recieve-req">Client's request recieved</p>
+                <p class="center req-pros">processing...</p>
+                <p class="center ser-to-db">fetching data from the<br/> database</p>
+                <p class="center db-to-ser">recieved data from database</p>
+                <p class="center data-pros">processing...</p>
+                <p class="center ser-resp">sending response to client</p>
+            </div>
+            <div class="frontend" id="fe" style="background-color: rgb(243, 238, 234);">
+                <h2 style="margin: 0px;">client</h2>
+                <p class="center client-to-ser">https://www.hotstar.com<br/>requesting to server</p>
+                <p class="center resp-reci-by-client">recieved response from the server</p>
+                <p class="center loading">loading...</p>
+            </div>
+        </div>
+        <div class="icon" style="text-align: center; color: antiquewhite; font-size: 1.2rem;">
+            <!-- it's an overview -->
+        </div>
+       
+
     </div>
-   </div>
-   
-   
+    <div class="rightContainer">
+        
+        <div class="headerElement">
+            <a href="">About Me</a>
+            <a href="">Skills</a>
+            <a href="">Education</a>
+            <a href="">Contact</a>
+            <div class="profile-pic">
+                <span class="tooltip">Shubham Shrivatava</span>
+            </div>
+        </div>
+        <div class="mainElement">
+            <div class="container">
+                <div class="heading">Full Stack Developer</div>
+                <div class="subHeading">CDAC certified</div>
+                <p style="width: 70%;">With a passion for problem-solving and a commitment to
+                    continuous learning, I am poised to bring a unique blend of
+                    engineering and computing skills to a dynamic role. Excited to
+                    leverage my diverse background to excel in challenging projects
+                    and contribute to the success of a forward-thinking organization.</p>
+                <div class="">
+                    <button>About Me</button>
+                    <button>My Work</button>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script>
+        const result=setTimeout(()=>{ 
+            // alert("hello")
+            document.getElementById("fe").style.
+            backgroundImage="url('./images/Screenshot\ from\ 2024-02-09\ 19-07-59.png')";
+        },32500);
+        const search=setTimeout(()=>{ 
+            // alert("hello")
+            document.getElementById("fe").style.
+            backgroundImage="none";
+        },3500);
+    </script>
 </body>
 </html>
+
+
